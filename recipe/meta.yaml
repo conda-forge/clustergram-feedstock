@@ -1,5 +1,5 @@
 {% set name = "clustergram" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a06b99351d44e0820fc52c9b4d59c92774050faa56cdae025ac76dc5dfad0821
-  
+  sha256: 2034e150cee142c567ceb3875390394b71d868e33577ec59b6a9bc4bd0a5b627
+
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Clustergram - visualization and diagnostics for cluster analysis'
+  summary: Clustergram - visualization and diagnostics for cluster analysis
   doc_url: https://clustergram.readthedocs.io/
   dev_url: https://github.com/martinfleis/clustergram
 
