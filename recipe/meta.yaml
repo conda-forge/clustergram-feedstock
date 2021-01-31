@@ -1,5 +1,5 @@
 {% set name = "clustergram" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2034e150cee142c567ceb3875390394b71d868e33577ec59b6a9bc4bd0a5b627
+  sha256: 83d049c44603a6e0533d2393259cf1129b1bf5355a6e1564d7f1ffec425c2d3b
 
 build:
   noarch: python
