@@ -1,11 +1,11 @@
-About clustergram
-=================
+About clustergram-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/clustergram-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/martinfleis/clustergram
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/clustergram-feedstock/blob/main/LICENSE.txt)
 
 Summary: Clustergram - visualization and diagnostics for cluster analysis
 
